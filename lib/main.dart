@@ -82,7 +82,8 @@ class MyApp extends StatelessWidget {
               progressIndicatorTheme: ProgressIndicatorThemeData(
                 color: Colors.teal,
               ),
-              toggleButtonsTheme: ToggleButtonsThemeData(color: Colors.teal),
+              toggleButtonsTheme:
+                  ToggleButtonsThemeData(color: Colors.tealAccent),
               switchTheme: SwitchThemeData(
                   trackColor: MaterialStateProperty.all(Colors.teal),
                   thumbColor: MaterialStateProperty.all(Colors.white)),
@@ -117,7 +118,8 @@ class MyApp extends StatelessWidget {
                 labelStyle: TextStyle(color: Colors.black),
               ),
 
-              toggleButtonsTheme: ToggleButtonsThemeData(color: Colors.teal),
+              toggleButtonsTheme:
+                  ToggleButtonsThemeData(color: Colors.tealAccent),
               progressIndicatorTheme: ProgressIndicatorThemeData(
                 color: Colors.teal,
               ),
